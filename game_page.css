@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-page,html, body{
+    height: 100%;
+}
+
+
+
+.player_identifier{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    justify-content: center;
+    height: 40%;
+    gap: 140px;
+}
+
+.user_options{
+    display: flex;
+    background-color: blueviolet;
+    height:60%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#player{
+    display: flex;
+    height:50px;
+    width:65px;
+    border: solid 2px red;
+}
+
+#option{
+    display: flex;
+    height:60px;
+    width:80px;
+    border: solid 2px red;
+}

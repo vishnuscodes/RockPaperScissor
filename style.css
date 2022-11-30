@@ -1,0 +1,158 @@
+/* --- CSS ---
+/*-------- GENERAL --------*/
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-page,html, body{
+    height: 100%;
+}
+
+/*body {
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 0px 25px;
+}
+
+/*-------- HEADER --------*/
+/* #main-header {
+    background-color: rgb(0, 126, 0);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#header-title {
+    color: white;
+    font-size: 40px;
+} */
+
+/*-------- MAIN CONTENT --------*/
+/* #main {
+    border: 1px solid rgb(180, 180, 180);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.title:first-child {
+    margin-top: 0px;
+}
+
+input {
+    height: 30px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.btn {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    width: 100px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.list-group-item {
+    border-bottom: 1px solid rgb(180, 180, 180);
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 10px;
+}   */
+
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    background-color:aquamarine;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    background-image: url('./images/main-image.jpeg');
+    background-size:cover;
+}
+
+.header{
+    /* background-color: blue; */
+    font-family: 'Courier New', monospace;
+    color: #F6F9FE;
+}
+
+.entry{
+    /* background-color: yellowgreen; */
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* <!-- HTML !-->
+<button class="button-17" role="button">Button 17</button> */
+
+/* CSS */
+.entry-button {
+  align-items: center;
+  appearance: none;
+  background-color:rgb(59, 59, 59);
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: rgb(255, 251, 251);
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  outline: solid 0px rgb(228, 250, 61);
+  opacity: 0.8;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: outline 0.2s linear;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.entry-button:hover {
+  /* background: #F6F9FE;
+  color: #174ea6; */
+  outline-width: 6px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.entry-button:active {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.347), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+/* 
+.entry-button:focus {
+  outline: none;
+  border: 2px solid #ff0000;
+} */
+
