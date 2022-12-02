@@ -8,14 +8,59 @@
     <link rel="stylesheet" href="./game_page.css">
 </head>
 <body>
-    <div class="player_identifier">
-        <p id="player">System</p>
-        <p id="player">User</p>
+    <div class="player-score">
+        <div class="header-score">
+            <h3 id="score-card">Score card</h3>
+            <button type="button" id ="exit">
+                <ion-icon name="exit-outline"></ion-icon>
+                <span class="option1-text">Exit</span>
+            </button>
+        </div>
+        <div class="player_identifier">
+            <!-- <p id="player">System</p> -->
+            <!-- <img id="player" src="./images/user-icon.png"> -->
+            <div id="user-score">0</div>
+            <div id="user">
+                <ion-icon name="person"></ion-icon>
+            </div>
+            <!-- <img id="player" src="./images/baseline_monitor_black_24dp.png"> -->
+            <div id="computer">
+                <ion-icon name="desktop"></ion-icon>
+            </div>
+            <div id="computer-score">0</div>
+            <!-- <p id="player">User</p> -->
+        </div>
     </div>
-    <div class="user_options">
-        <p id="option">rock</p>
-        <p id="option">paper</p>
-        <p id="option">scissor</p>
+   
+    <div class="user-options">
+        <!-- <p id="option">rock</p> -->
+        <!-- <img id="option" src="./images/rock.png"> -->
+        <div class="cp-display">
+            <p id="computer-selection">Computer Selection</p>
+            <div id="display-computer-selection">-</div>
+        </div>
+        <div class="header-user-options">
+            <h3>Select one from below when it's your turn!!</h3>
+        </div>
+        <div class="user-selection">
+            <button type="button" id ="option1">
+                <ion-icon name="tennisball"></ion-icon>
+                <span class="option1-text">Rock</span>
+            </button>
+            <button type="button" id ="option2">
+                <ion-icon name="document"></ion-icon>
+                <span class="option1-text">Paper</span>
+            </button>
+            <button type="button" id ="option3">
+                <ion-icon name="cut"></ion-icon>
+                <span class="option1-text">Scissor</span>
+            </button>
+        </div>
+        <!-- <p id="option2">paper</p>
+        <p id="option3">scissor</p> -->
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="javascript.js"></script>
 </body>
 </html>
